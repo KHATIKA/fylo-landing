@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+body {
+    background-image: url(../images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-position-y: 845px;
+    background-size: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 24px 28px 100px 28px;
+}
+
+.header-help {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 80px;
+    width: 100%;
+}
+
+.header-div {
+    display: flex;
+}
+
+.header-img {
+    height: 24px;
+}
+
+.header-p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #07043B;
+}
+
+.one {
+    margin-right: 24px;
+}
+
+.first-illustration {
+    width: 304px;
+    height: 225px;
+    display: flex;
+    margin: auto auto 40px auto;
+}
+
+.files {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #07043B;
+    margin-bottom: 24px;
+}
+
+.fylo-stores {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #07043B;
+    margin-bottom: 24px;
+}
+
+.get-started {
+    background: #2F65F8;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+    width: 304px;
+    height: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    border-radius: 3.125px;
+}
+
+label {
+    display: inline-block;
+    font-weight: 500px;
+}
+
+input[type="email"] {
+    display: inline-block;
+    border: 2px solid #d1d3d4;
+    width: 290px;
+    height: 37px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C2C2C2;;
+    margin-left: 5px;
+    margin-bottom: 14px;
+    border-radius: 3.125px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    padding-left: 8px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#error-msg {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #EF4877;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.section-1 {
+    width: 320px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-illustration {
+    width: 320px;
+    height: 241px;
+    display: flex;
+    margin: 135px auto 87px auto;
+}
+
+.idk {
+    background-color: #F8F8FE;
+}
+
+.stay {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #07043B;
+}
+
+.never {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #615F7E;
+    margin-bottom: 16px;
+}
+
+.mini {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    width: 320px;
+}
+
+.never2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #615F7E;
+
+}
+
+.green {
+    width: 130px;
+    height: 23px;
+    display: flex;
+    margin: 39px auto auto auto;
+    align-items: center;
+}
+
+.work {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3DA08F;
+    margin-right: 8px;
+}
+
+.arrow-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.line {
+    background: #3DA08F;
+    height: 1px;
+    width: 130px;
+    height: 1px;
+    display: flex;
+    margin: auto auto 40px auto;
+}
+
+.man {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+    border-radius: 3.93258px;
+    width: 280px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    margin: auto auto 80px auto;
+    padding-left: 24px;
+}
+
+.quotes {
+    width: 14px;
+    height: 14px;
+    margin: auto auto 0px 24px;
+}
+
+.fylo-has {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.384615px;
+    color: #07043B;
+    width: 240px;
+    height: 71px;
+    margin: 2px auto 8px 24px;
+}
+
+.man-avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 30px;
+    margin-right: 7px;
+}
+
+.last-man {
+    display: flex;
+    width: 105px;
+    margin: 12px auto 18px 24px;
+}
+
+.burton {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: 0.45px;
+    color: #07043B;
+}
+
+.founder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 12px;
+    letter-spacing: 0.3px;
+    color: #07043B;
+}
+
+
+.not-blue-div {
+    width: 375px;
+    height: 345px;
+    background: #575988;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.get {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 54px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.button-notblue {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.it-only {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 280px;
+}
+
+
+#secondname {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.47059px;
+    width: 216px;
+    height: 32px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #C0C0C0;
+    border: none;
+    margin-bottom: 8px;
+    padding-left: 21px;
+}
+
+.getstarted {
+    background: #2F65F8;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.47059px;
+    width: 240px;
+    height: 32px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    border: none;
+}
+
+footer {
+    width: 100%;
+    height: 590px;
+    background: #07043B;
+}
+
+.light-icon {
+    width: 105px;
+    height: 30px;
+    margin: 65px auto 32px 40px;
+}
+
+.number {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.mail-adrress {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.mini-first {
+    display: flex;
+    margin: 0px auto 25px 40px;
+    column-gap: 19px;
+}
+
+.mini-second {
+    display: flex;
+    column-gap: 19px;
+    margin: 0px auto 32px 40px;
+}
+
+.maybe-ul {
+    margin: 0px auto 32px 40px;
+}
+
+.maybe-ul-2 {
+    margin: 0px auto 32px 40px;
+}
+
+.footer-li {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-icon {
+    width: 27px;
+    height: 27px;
+    filter: invert(100%) sepia(0%) saturate(7438%) hue-rotate(24deg) brightness(131%) contrast(109%);
+}
+
+.all-icons {
+    display: flex;
+    margin: auto;
+    width: 110px;
+    height: 30px;
+}
+
+.fb {
+    margin-right: 10px;
+}
+
+
+/* DESKTOP VERSION */
+
+@media screen and (min-width:1440px) {
+
+    body {
+        background-size: 100%;
+
+    }
+
+    header {
+        justify-content: space-around;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+
+    .header-img {
+        width: 150px;
+        height: 49px;
+    }
+
+    .for-grid {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .first-illustration {
+        width: 640px;
+        height: 474px;
+    }
+
+    .frst {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .section-1 {
+        grid-column: 1;
+        grid-row: 1;
+        width: 627px;
+    }
+
+    .files {
+        font-size: 40px;
+        line-height: 60px;
+        text-align: start;
+    }
+
+    .fylo-stores {
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.53125px;
+        text-align: start;
+    }
+
+    .all-button {
+        display: flex;
+    }
+
+    .get-started {
+        width: 200px;
+        height: 45px;
+        margin-top: 13px;
+        cursor: pointer;
+    }
+
+    .get-started:hover {
+        opacity: 0.5;
+    }
+
+    .for-desktop {
+        display: grid;
+        margin: 340px auto auto auto;
+        align-items: center;
+        width: 1280px;
+    }
+
+    .two-man {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .never {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: start;
+        justify-content: start;
+        width: 529px;
+
+    }
+
+    .never2 {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: start;
+        width: 529px;
+
+    }
+
+    .second-div {
+        grid-column: 1;
+        grid-row: 1;
+        width: 648px;
+        padding-left: 0px;
+    }
+
+    .stay {
+        font-size: 36px;
+        line-height: 47px;
+        margin-bottom: 48px;
+    }
+
+    .second-illustration {
+        width: 600px;
+        height: 474px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .green,
+    .line {
+        margin-left: 0px;
+    }
+
+    .man {
+        width: 356px;
+        height: 215px;
+        margin-left: 0px;
+    }
+
+    .fylo-has {
+        font-size: 13px;
+        line-height: 23px;
+        margin-bottom: 24px;
+        width: 289px;
+    }
+
+    .quotes {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .mini {
+        align-items: start;
+        justify-content: start;
+        width: 658px;
+    }
+
+    .not-blue-div {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .button-notblue {
+        display: flex;
+        flex-direction: column;
+        margin-left: 227px;
+    }
+
+    .get {
+        width: 347px;
+        height: 48px;
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .it-only {
+        text-align: start;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        width: 533px;
+    }
+
+    #secondname {
+        width: 480px;
+        height: 48px;
+        margin-bottom: 16px;
+        font-size: 12px;
+        line-height: 14px;
+        display: flex;
+        padding-left: 26px;
+        align-items: center;
+    }
+
+    .getstarted {
+        width: 200px;
+        height: 48px;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .getstarted:hover {
+        opacity: 0.5;
+    }
+
+    footer {
+        display: flex;
+    }
+
+    .light-icon {
+        width: 150px;
+        height: 40px;
+    }
+
+    .footer-1 {
+        margin: 93px 200px auto 80px;
+    }
+
+    .maybe-ul {
+        margin-top: 240px;
+    }
+
+    .maybe-ul-2 {
+        margin-top: 240px;
+    }
+
+    label {
+        display: inline-block;
+        font-weight: 500px;
+    }
+
+    input[type="email"] {
+        width: 320px;
+        height: 40px;
+        margin-top: 13px;
+    }
+
+    #error-msg {
+        display: none;
+        color: #ff2851;
+        margin-top: 10px;
+    }
+
+    .all-icons {
+        margin: 240px auto auto 100px;
+    }
+
+}
